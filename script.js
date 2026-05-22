@@ -7,6 +7,6 @@ function insert_Row() {
 	  <td>New Cell2</td>
 	  `
 	table.innerHTML = newRow.innerHTML+table.innerHTML;
-	body.appendChild(table);
+	document.body.appendChild(table);
   
 }
